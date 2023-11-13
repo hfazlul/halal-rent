@@ -19,6 +19,7 @@ const Button: React.FC<ButtonProps> = ({
     outline,
     small,
     icon:Icon
+    
 }) => {
     return ( 
         <button 

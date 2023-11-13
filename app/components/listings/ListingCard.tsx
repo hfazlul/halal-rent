@@ -14,7 +14,7 @@ interface ListingCardProps{
     data: SafeListing;
     reservation?: Reservation;
     onAction?:(id: string)=> void;
-    disabled?:boolean;
+    disabled?:boolean | undefined;
     actionLabel?:string;
     actionId?:string;
     currentUser?:SafeUser | null;

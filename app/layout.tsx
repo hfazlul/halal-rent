@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import './globals.css'
 import { Nunito } from 'next/font/google'
 import Nav from './components/navbar/Nav'
